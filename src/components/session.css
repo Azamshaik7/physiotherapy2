@@ -1,0 +1,102 @@
+.sessionOuter{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+.sessionContainer h1{
+    color: rgb(71, 52, 124);
+    font-family: "Playfair Display";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sessioninputs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sessioninputs input,
+.sessioninputs select{
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    border: 1px solid rgb(212, 212, 212);
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.sessionagree{
+    display: flex;
+    align-items: center; 
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.sessionagree input{
+   margin-bottom: 13px;
+   width: 20px;
+   height: 20px;
+}
+.sessionbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.sessionbtn button{
+    width: 343px;
+    height: 60px;
+    border-radius: 63px !important;
+    border: 1px solid rgba(115, 82, 209, 0.9) !important;
+    background: rgba(115, 82, 209, 0.9) !important;
+    color: rgb(255, 255, 255) !important;
+    text-align: center !important;
+    font-family: "DM Sans" !important;
+    font-weight: 700 !important;
+    padding: 12px 36.02px 14px 35.98px !important;
+    font-size: 20px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .sessionContainer h1 {
+        font-size: 28px; 
+        margin-bottom: 15px;
+        padding: 0 20px;
+    }
+
+    .sessioninputs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sessioninputs input,
+    .sessioninputs select {
+        width: 90%; 
+        margin-bottom: 15px; 
+        font-size: 18px;
+    }
+
+    .sessionagree {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .sessionagree p {
+        font-size: 16px; 
+        line-height: 1.4;
+        margin-left: 10px; 
+    }
+
+    .sessionbtn button {
+        width: 90%;
+    }
+}
