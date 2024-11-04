@@ -5,10 +5,10 @@ import Home from './pages/Home';
 
 export default function Approuter() {
   return (
-    <Router>
+    <Router basename="/physiotherapy2"> {/* Added basename here */}
       <Routes>
-        <Route path="/" element={<Home/>} /> 
-        <Route path="/book-appointment" element={<BookAppointment/> } />
+        <Route path="/" element={<Home />} />
+        <Route path="/book-appointment" element={<BookAppointment />} />
       </Routes>
     </Router>
   );
