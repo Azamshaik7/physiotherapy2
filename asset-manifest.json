@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/physiotherapy2/static/css/main.599f076e.css",
+    "main.js": "/physiotherapy2/static/js/main.a144b447.js",
+    "static/media/treatmentbg.webp": "/physiotherapy2/static/media/treatmentbg.cde2deeca4f2c3567af3.webp",
+    "index.html": "/physiotherapy2/index.html",
+    "main.599f076e.css.map": "/physiotherapy2/static/css/main.599f076e.css.map",
+    "main.a144b447.js.map": "/physiotherapy2/static/js/main.a144b447.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.599f076e.css",
+    "static/js/main.a144b447.js"
+  ]
+}
