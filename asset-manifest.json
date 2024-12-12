@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/physiotherapy2/static/css/main.ae618630.css",
-    "main.js": "/physiotherapy2/static/js/main.4b31486f.js",
+    "main.css": "/physiotherapy2/static/css/main.cfe3d116.css",
+    "main.js": "/physiotherapy2/static/js/main.9dd1d077.js",
     "static/media/richa.png": "/physiotherapy2/static/media/richa.a1d0f724534c21c5ded6.png",
     "static/media/pretti.png": "/physiotherapy2/static/media/pretti.1f104d2da4df7a5675d1.png",
     "static/media/Gaurav_manav_V3.png": "/physiotherapy2/static/media/Gaurav_manav_V3.92cbca6def09c2a0f9a3.png",
     "static/media/login-col-left-img.png": "/physiotherapy2/static/media/login-col-left-img.fc7e7940ab47df396aec.png",
     "static/media/senior_bp_check.webp": "/physiotherapy2/static/media/senior_bp_check.c4d9e7023833116c538f.webp",
+    "static/media/dashbordimg.jpeg": "/physiotherapy2/static/media/dashbordimg.9026e34e621d548d213c.jpeg",
     "static/media/femaleDummy.jpg": "/physiotherapy2/static/media/femaleDummy.959d23df83323b7f274a.jpg",
     "static/media/logo1.jpg": "/physiotherapy2/static/media/logo1.20cd4e706d4f75fbf397.jpg",
     "static/media/DateTime.png": "/physiotherapy2/static/media/DateTime.d90a1e99527cd6acbd7f.png",
@@ -29,11 +30,11 @@
     "index.html": "/physiotherapy2/index.html",
     "static/media/gdpr.webp": "/physiotherapy2/static/media/gdpr.7d704d7f3a3707c63351.webp",
     "static/media/footer-logo.svg": "/physiotherapy2/static/media/footer-logo.2c5e7ab70ede407b544097254c7dbf52.svg",
-    "main.ae618630.css.map": "/physiotherapy2/static/css/main.ae618630.css.map",
-    "main.4b31486f.js.map": "/physiotherapy2/static/js/main.4b31486f.js.map"
+    "main.cfe3d116.css.map": "/physiotherapy2/static/css/main.cfe3d116.css.map",
+    "main.9dd1d077.js.map": "/physiotherapy2/static/js/main.9dd1d077.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae618630.css",
-    "static/js/main.4b31486f.js"
+    "static/css/main.cfe3d116.css",
+    "static/js/main.9dd1d077.js"
   ]
 }
