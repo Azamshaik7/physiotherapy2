@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/physiotherapy2/static/css/main.2df5b69b.css",
-    "main.js": "/physiotherapy2/static/js/main.cdad2ccb.js",
+    "main.js": "/physiotherapy2/static/js/main.e9bc17ef.js",
     "static/media/richa.png": "/physiotherapy2/static/media/richa.a1d0f724534c21c5ded6.png",
     "static/media/pretti.png": "/physiotherapy2/static/media/pretti.1f104d2da4df7a5675d1.png",
     "static/media/Gaurav_manav_V3.png": "/physiotherapy2/static/media/Gaurav_manav_V3.92cbca6def09c2a0f9a3.png",
@@ -31,10 +31,10 @@
     "index.html": "/physiotherapy2/index.html",
     "static/media/footer-logo.svg": "/physiotherapy2/static/media/footer-logo.2c5e7ab70ede407b544097254c7dbf52.svg",
     "main.2df5b69b.css.map": "/physiotherapy2/static/css/main.2df5b69b.css.map",
-    "main.cdad2ccb.js.map": "/physiotherapy2/static/js/main.cdad2ccb.js.map"
+    "main.e9bc17ef.js.map": "/physiotherapy2/static/js/main.e9bc17ef.js.map"
   },
   "entrypoints": [
     "static/css/main.2df5b69b.css",
-    "static/js/main.cdad2ccb.js"
+    "static/js/main.e9bc17ef.js"
   ]
 }
