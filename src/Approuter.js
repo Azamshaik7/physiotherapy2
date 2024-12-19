@@ -14,21 +14,67 @@ const isAuthenticated = () => {
 };
 
 // Protected Route Component
-const ProtectedRoute = ({ element: Component }) => {
-  return isAuthenticated() ? Component : <Navigate to="/sign-in" />;
+const ProtectedRoute = ({ children }) => {
+  return isAuthenticated() ? children : <Navigate to="/sign-in" />;
+};
+
+// Default Route Component
+const DefaultRoute = () => {
+  return isAuthenticated() ? <Navigate to="/home" /> : <Navigate to="/sign-in" />;
 };
 
 export default function Approuter() {
   return (
-    <Router  basename="/physiotherapy2"> 
+    <Router basename="/physiotherapy2">
       <Routes>
-        <Route path="/" element={<ProtectedRoute element={<Home />} />} />
-        <Route path="/book-appointment" element={<ProtectedRoute element={<BookAppointment />} />} />
+        {/* Root Route - Default redirection */}
+        <Route path="/" element={<DefaultRoute />} />
+        
+        {/* Protected Routes */}
+        <Route
+          path="/home"
+          element={
+            <ProtectedRoute>
+              <Home />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/book-appointment"
+          element={
+            <ProtectedRoute>
+              <BookAppointment />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/services"
+          element={
+            <ProtectedRoute>
+              <ServicesPage />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/sidebar"
+          element={
+            <ProtectedRoute>
+              <Sidebar />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/dashboard/*"
+          element={
+            <ProtectedRoute>
+              <App1 />
+            </ProtectedRoute>
+          }
+        />
+        
+        {/* Public Routes */}
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUpForm />} />
-        <Route path="/services" element={<ProtectedRoute element={<ServicesPage />} />} />
-        <Route path="/sidebar" element={<ProtectedRoute element={<Sidebar />} />} />
-        <Route path="/dashboard/*" element={<ProtectedRoute element={<App1 />} />} />
       </Routes>
     </Router>
   );
