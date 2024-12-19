@@ -20,7 +20,7 @@ const ProtectedRoute = ({ element: Component }) => {
 
 export default function Approuter() {
   return (
-    <Router> 
+    <Router  basename="/physiotherapy2"> 
       <Routes>
         <Route path="/" element={<ProtectedRoute element={<Home />} />} />
         <Route path="/book-appointment" element={<ProtectedRoute element={<BookAppointment />} />} />
