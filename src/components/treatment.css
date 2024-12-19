@@ -31,14 +31,14 @@
 .treatment1 p {
     font-family: "DM Sans";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 30px;
 }
 
 .treatment2 {
     width: 50%;
     height: 912px;
-    background-image: url(/public/images/treatmentbg.webp);
+    background-image: url(''); 
     background-size: 844px;
     background-origin: border-box;
     background-repeat: no-repeat;
@@ -96,8 +96,8 @@
     }
 
     .treatment1 p {
-        font-size: 21px; 
-        line-height: 0px;
+        font-size: 16px; 
+        line-height: 2px;
         margin-top: 20px;
     }
 

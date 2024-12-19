@@ -1,6 +1,6 @@
 [
     {
-        "image":"./images/nikheel.webp",
+        "image":"femaleDummy.jpg",
         "drname" : "DR.Nikheel pansare",
         "designation":"Orthopedic",
         "degree":"M.Sc(Orthopedic)",
@@ -10,7 +10,7 @@
         "pain3":"sports surgeries"
     },
     {
-        "image":"./images/Gargi.webp",
+        "image":"femaleDummy.jpg",
         "drname" : "DR.Gargi Neha",
         "designation":"Physiotherapist",
         "degree":"MPTh(Ortho)",
@@ -20,7 +20,7 @@
         "pain3":"knee surgeries"
     },  
     {
-        "image":"./images/Yogesh.webp",
+        "image":"femaleDummy.jpg",
         "drname" : "DR.Yogesh Patel",
         "designation":"Orthopedic",
         "degree":"M.Sc(Orthopedic)",
@@ -30,7 +30,7 @@
         "pain3":"knee surgeries"
     },
     {
-        "image":"./images/Poonam.webp",
+        "image":"femaleDummy.jpg",
         "drname" : "DR.Poonam Hooda",
         "designation":"Orthopedic",
         "degree":"M.Sc(Orthopedic)",
@@ -40,7 +40,7 @@
         "pain3":"knee surgeries"
     }, 
     {
-        "image":"./images/Aparna.webp",
+        "image":"femaleDummy.jpg",
         "drname" : "DR.Aparna Premraj",
         "designation":"Physiotherapist",
         "degree":"M.Sc(Orthopedic)",

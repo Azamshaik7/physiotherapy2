@@ -86,6 +86,7 @@
 
     .headercontainer h1 {
         font-size: 38px; 
+        margin-top: 50px;
     }
 
     .headercontainer h2,
@@ -95,7 +96,7 @@
 
     .headercontainer .para1,
     .headercontainer .para2 {
-        font-size: 16px; 
+        font-size: 14px; 
         line-height: 2px;
         
     }
@@ -120,10 +121,15 @@
     .forhidden{
         display: block;
         margin-top: 40px;
+        width: 100%;
         
     }
     .forhidden button{
       font-size: 16px;
       
     }
+    .btn22{
+        width: 200px;
+    }
 }
+

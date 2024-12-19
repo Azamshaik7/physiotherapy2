@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import './Experts.css';
 import ExpertsCards from './ExpertsCards';
@@ -10,7 +11,7 @@ export default function Experts() {
   const totalCards = Expertscards.length;
   const maxIndex = totalCards - cardsToShow;
 
-  // Dynamically update `cardsToShow` based on screen width
+  
   useEffect(() => {
     const updateCardsToShow = () => {
       setCardsToShow(window.innerWidth < 768 ? 1 : 3);
@@ -52,11 +53,11 @@ export default function Experts() {
               {Expertscards.map((ele, index) => (
                 <ExpertsCards
                   key={index}
-                  image={ele.image}
+                  image={require(`../images/${ele.image}`)} // Dynamically import the image
                   drname={ele.drname}
                   designation={ele.designation}
                   degree={ele.degree}
-                  experience={ele.experience}
+                  experience={ele.Experience}
                   pain1={ele.pain1}
                   pain2={ele.pain2}
                   pain3={ele.pain3}

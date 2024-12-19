@@ -1,7 +1,11 @@
-
 import React, { useState, useEffect, useRef } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './carousel.css';
+
+
+import prettiImage from '../images/pretti.png';
+import richaImage from '../images/richa.png';
+import gauravImage from '../images/Gaurav_manav_V3.png';
 
 const Carousel = () => {
   const [currentPosition, setCurrentPosition] = useState(0);
@@ -12,7 +16,7 @@ const Carousel = () => {
   const [dragOffset, setDragOffset] = useState(0);
   const carouselRef = useRef(null);
 
-  // Determine the number of visible cards based on screen width
+  
   useEffect(() => {
     const updateVisibleCards = () => {
       if (window.innerWidth < 1000) {
@@ -43,7 +47,7 @@ const Carousel = () => {
 
   const handleDoubleClick = () => {
     setIsDoubleClickActivated(true);
-    setTimeout(() => setIsDoubleClickActivated(false), 1000); // Automatically deactivate after 1 second
+    setTimeout(() => setIsDoubleClickActivated(false), 1000); 
   };
 
   const handleMouseDown = (e) => {
@@ -99,7 +103,7 @@ const Carousel = () => {
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={() => setIsDragging(false)}
-        onDoubleClick={handleDoubleClick} // Activates dragging on double-click
+        onDoubleClick={handleDoubleClick} 
         onTouchStart={handleTouchStart}
         onTouchMove={handleTouchMove}
         onTouchEnd={handleTouchEnd}
@@ -123,16 +127,16 @@ const Carousel = () => {
           }}
         >
           <div className="carousel-card col text-center bg-light border m-2 p-4 imagess contbox" onDoubleClick={handleDoubleClick}>
-            <img src='/images/pretti.png' alt="Client" />
+            <img src={prettiImage} alt="Client Pretti" /> 
           </div>
           <div className="carousel-card col text-center bg-light border m-2 p-4 imagess" onDoubleClick={handleDoubleClick}>
-            <img src='/images/richa.png' alt="Client" />
+            <img src={richaImage} alt="Client Richa" /> 
           </div>
           <div className="carousel-card col text-center bg-light border m-2 p-4 imagess" onDoubleClick={handleDoubleClick}>
-            <img src='/images/Gaurav_manav_V3.png' alt="Client" />
+            <img src={gauravImage} alt="Client Gaurav" /> 
           </div>
           <div className="carousel-card col text-center bg-light border m-2 p-4 imagess" onDoubleClick={handleDoubleClick}>
-            <img src='/images/pretti.png' alt="Client" />
+            <img src={prettiImage} alt="Client Pretti" /> 
           </div>
         </div>
 
@@ -154,5 +158,3 @@ const Carousel = () => {
 };
 
 export default Carousel;
-
-

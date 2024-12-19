@@ -3,6 +3,7 @@
     background-color:#f6f6f9;
     display: flex;
     align-items: center;
+    padding-top: 20px;
 }
 .container{
     width: 100%;
@@ -36,7 +37,7 @@
     border-radius: 10px;
 }
 .cardContainer .drname{
-    margin-top: -40px;
+    margin-top: 10px;
     padding-left: 20px;
     font-size: 25px;
 }
