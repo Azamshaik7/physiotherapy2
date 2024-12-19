@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2df5b69b.css",
-    "main.js": "/static/js/main.dc48c388.js",
+    "main.js": "/static/js/main.8f08221d.js",
     "static/media/richa.png": "/static/media/richa.a1d0f724534c21c5ded6.png",
     "static/media/pretti.png": "/static/media/pretti.1f104d2da4df7a5675d1.png",
     "static/media/Gaurav_manav_V3.png": "/static/media/Gaurav_manav_V3.92cbca6def09c2a0f9a3.png",
@@ -31,10 +31,10 @@
     "index.html": "/index.html",
     "static/media/footer-logo.svg": "/static/media/footer-logo.2c5e7ab70ede407b544097254c7dbf52.svg",
     "main.2df5b69b.css.map": "/static/css/main.2df5b69b.css.map",
-    "main.dc48c388.js.map": "/static/js/main.dc48c388.js.map"
+    "main.8f08221d.js.map": "/static/js/main.8f08221d.js.map"
   },
   "entrypoints": [
     "static/css/main.2df5b69b.css",
-    "static/js/main.dc48c388.js"
+    "static/js/main.8f08221d.js"
   ]
 }
